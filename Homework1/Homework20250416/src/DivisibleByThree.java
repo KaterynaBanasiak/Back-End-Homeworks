@@ -9,11 +9,12 @@ public class DivisibleByThree implements Runnable {
             }
             i++;
             try {
-                Thread.sleep(100);
+                Thread.sleep(100); // пауза для читаемости
             } catch (InterruptedException e) {
                 System.out.println("Поток деления на 3 прерван");
             }
         }
     }
 }
+
 
