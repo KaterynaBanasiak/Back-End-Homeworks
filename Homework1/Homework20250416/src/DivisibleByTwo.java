@@ -9,7 +9,7 @@ public class DivisibleByTwo implements Runnable {
             }
             i++;
             try {
-                Thread.sleep(100);
+                Thread.sleep(100); // пауза для читаемости
             } catch (InterruptedException e) {
                 System.out.println("Поток деления на 2 прерван");
             }
